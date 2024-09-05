@@ -1,5 +1,5 @@
-## Análisis Crítico Personal
-## Michelle Gamboa Palma
+### Análisis Crítico Personal
+#### Michelle Gamboa Palma
 
 Me interesa este tema porque creo que los cambios demográficos suelen parecer distantes o abstractos, con estadísticas y porcentajes que no siempre se entienden, pero que terminan afectando profundamente la vida cotidiana de las personas y las decisiones que se toman a nivel gubernamental en áreas tan importantes como son la salud, la economía y los sistemas de previsión social.
 
