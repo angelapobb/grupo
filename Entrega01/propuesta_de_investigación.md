@@ -41,15 +41,15 @@ Además, buscamos presentar una dimensión regional en nuestra historia al mostr
   - **Máximos:** El resultado máximo que esperamos con nuestro proyecto sería una narrativa interactiva que no sólo ilustre los cambios en la pirámide poblacional, sino que también explore sus impactos en distintas áreas de la vida social, económica y política en Chile. Podríamos contar cómo el envejecimiento afecta el sistema de pensiones, la demanda de servicios de salud, el mercado laboral y las políticas públicas que requieren actualización en nuestro país. Además, se podrían incluir proyecciones a futuro y comparaciones con otros países de América Latina, entendiendo que el actual fenómeno del envejecimiento poblacional no es exclusivo de Chile.
 
 - **Preguntas que se pueden responder con los datos:**
-- ¿Cómo ha cambiado la distribución de la población chilena por edad en las últimas décadas?
-- ¿Cuál es la proporción de personas mayores en comparación con la población joven en la actualidad? ¿Cómo ha evolucionado?
-- ¿Qué factores han contribuido al envejecimiento de la población en mayor y menor medida? (disminución de la natalidad, aumento en la esperanza de vida, migración)
-- ¿Cómo está afectando el envejecimiento a los sistemas de pensiones y de salud en Chile?
-- ¿Cuáles son las proyecciones de la pirámide poblacional en Chile para las próximas décadas? 
-- ¿Cómo se compara Chile con otros países en términos de envejecimiento poblacional?
-- ¿Qué políticas públicas se han implementado o se están debatiendo para hacer frente a este desafío?
+  - ¿Cómo ha cambiado la distribución de la población chilena por edad en las últimas décadas?
+  - ¿Cuál es la proporción de personas mayores en comparación con la población joven en la actualidad? ¿Cómo ha evolucionado?
+  - ¿Qué factores han contribuido al envejecimiento de la población en mayor y menor medida? (disminución de la natalidad, aumento en la esperanza de vida, migración)
+  - ¿Cómo está afectando el envejecimiento a los sistemas de pensiones y de salud en Chile?
+  - ¿Cuáles son las proyecciones de la pirámide poblacional en Chile para las próximas décadas?
+  - ¿Cómo se compara Chile con otros países en términos de envejecimiento poblacional?
+  - ¿Qué políticas públicas se han implementado o se están debatiendo para hacer frente a este desafío?
 
--**Elementos digitales:**
+- **Elementos digitales:**
 Nos gustaría incluir elementos interactivos como líneas de tiempo que permitan al usuario explorar la evolución de la población por edad y que también podrían servir para destacar momentos clave en la historia demográfica del país, y que se puedan filtrar los datos por distintas variables, como género o región.
 
 Otro elemento digital podría ser el uso de mapas de calor interactivos que muestren la distribución geográfica del envejecimiento en las distintas regiones de Chile, que mostrarían cómo varía la proporción de personas mayores y jóvenes en las diferentes zonas del país, permitiendo identificar áreas con mayor envejecimiento o regiones con una población más joven. Los mapas de calor nos permitirían vincular datos adicionales, como la cobertura de servicios de salud o la disponibilidad de infraestructura para personas mayores, lo que facilitaría visualizar correlaciones entre envejecimiento y recursos disponibles.
@@ -57,4 +57,12 @@ Otro elemento digital podría ser el uso de mapas de calor interactivos que mues
 Los mapas de calor ofrecerían una manera clara de ver las diferencias en la demografía por regiones, permitiendo a los usuarios detectar patrones geográficos importantes de envejecimiento. Esto facilitaría una comprensión más profunda del impacto regional del envejecimiento poblacional, mostrando, por ejemplo, qué áreas rurales están envejeciendo más rápido que las zonas urbanas o cómo se distribuye la población joven en las principales ciudades.
 
 Estos mapas también podrían destacar zonas en donde la infraestructura y los servicios públicos podrían no ser suficientes para atender a una actual o futura población envejecida, ayudando a contar una historia que va más allá de los números y conecta los datos demográficos con problemas sociales y de políticas públicas que se discuten actualmente en nuestro país, además visualizando cómo los cambios en la distribución de la población requieren respuestas diferentes según el contexto geográfico y socioeconómico.
+
+### 7. **Base de datos inicial:**
+
+- **Resultados CENSO 2017:** http://resultados.censo2017.cl/
+https://www.ine.gob.cl/docs/default-source/censo-de-poblacion-y-vivienda/publicaciones-y-anuarios/2017/publicaci%C3%B3n-de-resultados/sintesis-de-resultados-censo2017.pdf?sfvrsn=1b2dfb06_6
+- **Mapa interactivo CENSO 2017:** https://ine-chile.maps.arcgis.com/apps/webappviewer/index.html?id=c2155cac57d04032bf6ca5f151cddd6d
+- **ENVEJECIMIENTO EN CHILE: Evolución, características de las personas mayores y desafíos demográficos para la población:** https://www.ine.gob.cl/docs/default-source/documentos-de-trabajo/envejecimiento-en-chile-evolucion-y-caracteristicas-de-las-personas-mayores.pdf?sfvrsn=fa394551_2
+- **Proyección:** https://www.ine.gob.cl/docs/default-source/proyecciones-de-poblacion/publicaciones-y-anuarios/base-2017/ine_estimaciones-y-proyecciones-2002-2035_base-2017_reg_%C3%A1rea_s%C3%ADntesis.pdf?sfvrsn=aaeb88e7_5
 
