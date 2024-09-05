@@ -1,22 +1,22 @@
-**Propuesta de investigación**
+### **Propuesta de investigación**
 
-### 1. **Síntesis del proyecto:**
+## 1. **Síntesis del proyecto:**
 
 En las últimas décadas, Chile ha experimentado una transformación demográfica significativa: un creciente envejecimiento poblacional y una reducción de la población infantil y joven, la que ha estado influida por factores como el aumento de la esperanza de vida, una disminución en las tasas de natalidad y las migraciones. Está tendencia puede redefinir las necesidades socioeconómicas del país.
 Este proyecto busca explorar cómo estos cambios han afectado la estructura poblacional chilena y qué implicaciones tienen para el futuro en áreas como la fuerza laboral, la planificación urbana, los sistemas de pensiones y la atención en el sistema de salud.
 Este cambio demográfico afecta tanto de manera transversal a las distintas generaciones, por lo que visualizaremos datos históricos y recientes para mostrar la evolución y magnitud de estas dinámicas y anticipar posibles retos futuros.
 
-### 2. **Hipótesis:**
+## 2. **Hipótesis:**
 
 El envejecimiento de la población en Chile está creando desafíos significativos en áreas como el sistema de pensiones y los servicios de salud, lo que exigirá reformas en las políticas públicas para asegurar la sostenibilidad a largo plazo.
 
-### 3. **Antecedentes:**
+## 3. **Antecedentes:**
 
 - **Tipos de datos:**
 - **Orígenes de los Datos:** Los datos provienen en su mayoría de censos nacionales y estimaciones demográficas pertenecientes al Instituto Nacional de Estadísticas de Chile (INE). También serán un aporte a nuestro proyecto datos de informes de la Organización Mundial de la Salud (OMS) y la Comisión Económica para América Latina y el Caribe (CEPAL), así como otros estudios demográficos de organizaciones sociales y universidades. Datos del Servicio Nacional del Adulto Mayor (SENAMA) podrían aportar con información cualitativa que no se encuentre en los informes anteriores y la posibilidad de identificar los problemas actuales de una población envejecida y posibles soluciones o modificaciones a nuestro sistema sociopolítico actual.
 - **Publicaciones Previas:** *FALTA INVESTIGAR* Existen varios estudios académicos y reportes gubernamentales sobre el envejecimiento poblacional en Chile. Sin embargo, pocos han combinado una narrativa visual que permita explorar este fenómeno de manera accesible para el público general.
 
-### 4. **Historia y novedad:**
+## 4. **Historia y novedad:**
 La historia de nuestra propuesta de investigación se centra en cómo la estructura demográfica de Chile ha experimentado cambios significativos en las últimas décadas, impulsada por factores como la disminución de la tasa de natalidad, el aumento de la esperanza de vida y la migración. Estos cambios han dado lugar a un envejecimiento acelerado de la población, lo que impacta en diversos aspectos del país, desde la economía hasta la necesidad de nuevas políticas públicas, especialmente en los sistemas de pensiones y salud.
 
 Históricamente, la pirámide poblacional de Chile presentaba una forma clásica con una base ancha (altas tasas de natalidad) y una cima estrecha (baja esperanza de vida). Sin embargo, en las últimas décadas, esta pirámide ha comenzado a invertirse, con una base más reducida y una parte superior cada vez más amplia, reflejando un aumento de la población mayor y una disminución de la población infantil y joven.
@@ -25,7 +25,7 @@ Este fenómeno demográfico ha sido ampliamente investigado por los nuevos desaf
 A diferencia de los estudios demográficos tradicionales que tienden a ser más centrados en las cifras y porcentajes, nuestro enfoque interactivo buscará contar una historia a través de elementos digitales como gráficos interactivos y mapas de calor.
 Además, buscamos presentar una dimensión regional en nuestra historia al mostrar cómo estos cambios no son uniformes en todo el país, y cómo las zonas urbanas y rurales se ven afectadas de manera diferente. Nuestro objetivo es hacer accesible este fenómeno a través de una webstory que combine datos duros con elementos interactivos, permitiendo al público explorar por sí mismo, de manera clara y sencilla, la actual transformación demográfica y sus implicaciones para el futuro de Chile.
 
-### 5. **Trabajo con los datos:**
+## 5. **Trabajo con los datos:**
 
 - **Datos Necesarios**: Para probar la hipótesis, necesitamos datos históricos y actuales sobre la estructura de la población por edad, tasas de natalidad y mortalidad, migración, y esperanza de vida. También es relevante obtener datos sobre políticas públicas relacionadas con el sistema de pensiones y el sistema de salud relacionados con el envejecimiento poblacional.
 - **Lista de fuentes de datos:**
@@ -35,7 +35,7 @@ Además, buscamos presentar una dimensión regional en nuestra historia al mostr
 - **Datos públicos y confidenciales:** La mayoría de los datos requeridos están disponibles de manera pública en las páginas del INE, CEPAL, OMS y SENAMA, las cuales son instituciones confiables para nuestra recolección de datos.
 - **Datos inexistentes:**
 
-### 6. **Resultados mínimos y máximos:**
+## 6. **Resultados mínimos y máximos:**
 
   - **Mínimos:** Utilizando los datos disponibles del INE y otras fuentes, podemos construir gráficas que muestren la transformación de la pirámide poblacional en Chile, destacando el aumento de la población de la tercera edad y la disminución de la población joven en las últimas décadas, con el fin de comprender la situación demográfica actual en nuestro país.
   - **Máximos:** El resultado máximo que esperamos con nuestro proyecto sería una narrativa interactiva que no sólo ilustre los cambios en la pirámide poblacional, sino que también explore sus impactos en distintas áreas de la vida social, económica y política en Chile. Podríamos contar cómo el envejecimiento afecta el sistema de pensiones, la demanda de servicios de salud, el mercado laboral y las políticas públicas que requieren actualización en nuestro país. Además, se podrían incluir proyecciones a futuro y comparaciones con otros países de América Latina, entendiendo que el actual fenómeno del envejecimiento poblacional no es exclusivo de Chile.
@@ -58,7 +58,7 @@ Los mapas de calor ofrecerían una manera clara de ver las diferencias en la dem
 
 Estos mapas también podrían destacar zonas en donde la infraestructura y los servicios públicos podrían no ser suficientes para atender a una actual o futura población envejecida, ayudando a contar una historia que va más allá de los números y conecta los datos demográficos con problemas sociales y de políticas públicas que se discuten actualmente en nuestro país, además visualizando cómo los cambios en la distribución de la población requieren respuestas diferentes según el contexto geográfico y socioeconómico.
 
-### 7. **Base de datos inicial:**
+## 7. **Base de datos inicial:**
 
 - **Resultados CENSO 2017:** http://resultados.censo2017.cl/
 https://www.ine.gob.cl/docs/default-source/censo-de-poblacion-y-vivienda/publicaciones-y-anuarios/2017/publicaci%C3%B3n-de-resultados/sintesis-de-resultados-censo2017.pdf?sfvrsn=1b2dfb06_6
