@@ -1,1 +1,1 @@
-# grupo
+aquí se pone la info básica + link al video + carrusel
