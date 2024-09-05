@@ -29,10 +29,10 @@ Además, buscamos presentar una dimensión regional en nuestra historia al mostr
 
 - **Datos Necesarios**: Para probar la hipótesis, necesitamos datos históricos y actuales sobre la estructura de la población por edad, tasas de natalidad y mortalidad, migración, y esperanza de vida. También es relevante obtener datos sobre políticas públicas relacionadas con el sistema de pensiones y el sistema de salud relacionados con el envejecimiento poblacional.
 - **Lista de fuentes de datos:**
-  - INE: Censo
+  - INE: Censos (2002, 2012, 2017)
   - OMS: Estadísticas de salud y envejecimiento globales.
-  -CEPAL: Estadísticas de salud y envejecimiento en Latinoamérica
-- **Datos públicos y confidenciales:** La mayoría de los datos requeridos están disponibles de manera pública en las páginas del INE y de la OMS.
+  - CEPAL: Estadísticas de salud y envejecimiento en Latinoamérica
+- **Datos públicos y confidenciales:** La mayoría de los datos requeridos están disponibles de manera pública en las páginas del INE, CEPAL, OMS y SENAMA, las cuales son instituciones confiables para nuestra recolección de datos.
 - **Datos inexistentes:**
 
 ### 6. **Resultados mínimos y máximos:**
