@@ -14,4 +14,4 @@ Para conocer nuestras reflexiones sobre este proyecto, puedes acceder a los sigu
 
 **[Michelle Gamboa](https://github.com/angelapobb/grupo/blob/main/Entrega01/An%C3%A1lisis%20cr%C3%ADtico%20Michelle%20Gamboa%20Palma.md)**
 
-**[Angela Poblete]([https://github.com/angelapobb/grupo/blob/main/Entrega01/reflexi%C3%B3n_integrante-01.md](https://github.com/angelapobb/grupo/blob/main/Entrega01/An%C3%A1lisis%20cr%C3%ADtico%20Angela%20Poblete.md))**
+**[Angela Poblete](https://github.com/angelapobb/grupo/blob/main/Entrega01/An%C3%A1lisis%20cr%C3%ADtico%20Angela%20Poblete.md)**
