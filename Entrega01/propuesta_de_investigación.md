@@ -1,1 +1,0 @@
-propuesta de investigación
