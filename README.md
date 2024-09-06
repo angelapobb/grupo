@@ -6,7 +6,7 @@ Nuestro enfoque se centra en cómo el envejecimiento de la población está afec
 
 Puedes visitar nuestra propuesta en este [enlace](https://github.com/angelapobb/grupo/blob/main/Entrega01/Propuesta%20de%20investigaci%C3%B3n.md) y nuestra bases de datos inicial [aquí](https://github.com/angelapobb/grupo/blob/main/Entrega01/Bases%20de%20datos%20inicial.md)
 
-Además, hemos preparado un video que resume nuestro proyecto, puedes acceder [aquí] (https://github.com/angelapobb/grupo/blob/main/Entrega01/Carrusel%20de%20instagram.pdf)
+Además, hemos preparado un video que resume nuestro proyecto, puedes acceder [aquí](https://github.com/angelapobb/grupo/blob/main/Entrega01/Carrusel%20de%20instagram.pdf)
 
 Como parte de nuestra propuesta visual, también hemos diseñado un [carrusel de Instagram] que presenta de manera gráfica nuestro tema.
 
