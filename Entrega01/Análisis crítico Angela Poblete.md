@@ -10,7 +10,7 @@ Para mí, esta investigación es crucial porque aborda una realidad que se vuelv
 
 Con esta investigación, espero revelar las interconexiones entre la demografía cambiante de Chile y las políticas públicas que afectan a la población. Mi objetivo es mostrar cómo los cambios en la estructura poblacional no solo reflejan tendencias estadísticas, sino que también afectan de manera tangible las vidas de las personas y las decisiones políticas del país. Se espera que esta investigación ayude a visualizar la magnitud de los desafíos actuales y futuros para los sistemas de salud y pensiones, el mercado laboral, y la planificación urbana, permitiendo así a los tomadores de decisiones y a la ciudadanía tener una comprensión más clara de las acciones necesarias.
 
-Quiero que esta investigación ofrezca una narrativa que no solo informe, sino que también fomente un sentido de urgencia y reflexión sobre el envejecimiento de la población en Chile. Mediante el uso de elementos interactivos y narrativas visuales, la meta es que el público pueda no solo observar la evolución de estos cambios demográficos, sino también explorar de manera interactiva cómo diferentes políticas y escenarios futuros pueden influir en estos resultados.
+Me gustaría que esta investigación ofrezca una narrativa que no solo informe, sino que también fomente un sentido de urgencia y reflexión sobre el envejecimiento de la población en Chile. Mediante el uso de elementos interactivos y narrativas visuales, la meta es que el público pueda no solo observar la evolución de estos cambios demográficos, sino también explorar de manera interactiva cómo diferentes políticas y escenarios futuros pueden influir en estos resultados.
 
 ## Ideas para Contar la Historia
 
