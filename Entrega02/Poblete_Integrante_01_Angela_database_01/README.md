@@ -1,5 +1,5 @@
 ## 1. Nombre
-**Ángela Poblete**
+**Angela Poblete**
 
 ## 2. Explicación de cómo se realizó el proceso de limpieza de datos
 
