@@ -9,7 +9,7 @@ Puedes visitar nuestra propuesta en este [enlace](https://github.com/angelapobb/
 
 Como parte de nuestra propuesta visual, también hemos diseñado un carrusel de Instagram que presenta de manera gráfica nuestro tema, al cual puedes acceder *aquí*
 Además, hemos preparado un video que resume nuestro proyecto, puedes acceder [aquí]
-Como parte de nuestra propuesta visual, también hemos diseñado un [carrusel de Instagram] que presenta de manera gráfica nuestro tema.
+Como parte de nuestra propuesta visual, también hemos diseñado un [carrusel de Instagram](https://github.com/angelapobb/grupo/blob/main/Entrega01/Carrusel%20de%20instagram.pdf) que presenta de manera gráfica nuestro tema.
 
 Para conocer nuestras reflexiones sobre este proyecto, puedes acceder a los siguientes links:
 
