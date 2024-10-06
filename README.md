@@ -1,35 +1,21 @@
+@@ -4,12 +4,14 @@ Te damos la bienvenida a nuestro proyecto Envejecimiento en Chile, somos Michell
 
-# Data Cleaning Process for Population Distribution by Age and Region
+Nuestro enfoque se centra en cómo el envejecimiento de la población está afectando a diferentes sectores, como el sistema de pensiones, de salud y el mercado laboral. A través de herramientas de visualización, buscamos hacer accesibles estos datos para comprender mejor los desafíos actuales y futuros de Chile. 
 
-## Overview
-This document outlines the process of cleaning and preparing three datasets for analysis and visualization:
-1. **Population Distribution by Age and Region (Percentage, 2021)**
-2. **Population Distribution by Age and Region (Percentage, 2002)**
-3. **Population Change by Age and Region (2002-2021)**
+Hemos preparado un video que resume nuestro proyecto, puedes acceder *aquí*
+Puedes visitar nuestra propuesta en este [enlace](https://github.com/angelapobb/grupo/blob/main/Entrega01/Propuesta%20de%20investigaci%C3%B3n.md) y nuestra bases de datos inicial [aquí](https://github.com/angelapobb/grupo/blob/main/Entrega01/Bases%20de%20datos%20inicial.md)
 
-These datasets were created using demographic information from Chilean regions, focusing on age group distributions over the years 2002 and 2021. The main objective was to clean and format the data to make it consistent and ready for analysis, ensuring it supports the hypothesis for the semester project.
+Como parte de nuestra propuesta visual, también hemos diseñado un carrusel de Instagram que presenta de manera gráfica nuestro tema, al cual puedes acceder *aquí*
+Además, hemos preparado un video que resume nuestro proyecto, puedes acceder [aquí]
+Como parte de nuestra propuesta visual, también hemos diseñado un [carrusel de Instagram] que presenta de manera gráfica nuestro tema.
 
-## Data Sources
-- Instituto Nacional de Estadísticas de Chile (INE) – Estimaciones y Proyecciones de Población
-- Censo Nacional de Población 2002 y 2017
+Para conocer nuestras reflexiones sobre este proyecto, puedes acceder a los siguientes links:
 
-## Cleaning Steps
-1. **Data Collection**:
-   - The raw data was extracted from various demographic reports and organized into a structured format (tables with years and regions).
-2. **Handling Missing Data**:
-   - No missing data was found in the selected regions, so no data imputation was required.
-3. **Consistency Check**:
-   - Ensured that the variable names and labels were consistent between datasets (2002 and 2021).
-   - Rounded numerical values to 1 decimal place to maintain clarity and avoid unnecessary precision.
-4. **Variable Renaming**:
-   - Renamed columns to make them more descriptive (e.g., "15-59 años (%)" to "15-59 años (Percentage)").
-5. **Final Adjustments**:
-   - Removed columns that weren't necessary for the analysis (e.g., percentage columns in the difference table) and only retained meaningful information.
+*Michelle Gamboa*
+**[Michelle Gamboa](https://github.com/angelapobb/grupo/blob/main/Entrega01/An%C3%A1lisis%20cr%C3%ADtico%20Michelle%20Gamboa%20Palma.md)**
 
-## Example Questions Answerable with Cleaned Data
-1. How has the percentage of the population aged 60 and over changed in each region between 2002 and 2021?
-2. Which regions experienced the largest decrease in the population aged 0-14 between 2002 and 2021?
-3. What are the differences in age group distribution between the northern and southern regions of Chile?
+*Angela Poblete*
+**[Angela Poblete](https://github.com/angelapobb/grupo/blob/main/Entrega01/reflexi%C3%B3n_integrante-01.md)**
 
 ## File Structure
 - `population_distribution_2002.csv`: Clean dataset for 2002 with percentages by age group and region.
