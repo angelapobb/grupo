@@ -1,5 +1,3 @@
-# README.md
-
 ## 1. Nombre
 **Ángela Poblete**
 
