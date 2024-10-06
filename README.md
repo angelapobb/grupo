@@ -1,4 +1,6 @@
-@@ -4,12 +4,14 @@ Te damos la bienvenida a nuestro proyecto Envejecimiento en Chile, somos Michell
+## Proyecto Envejecimiento en Chile
+
+Te damos la bienvenida a nuestro proyecto Envejecimiento en Chile, somos Michelle Gamboa y Angela Poblete, y nuestro trabajo tiene como objetivo analizar cómo ha cambiado la distribución de la población chilena por edad en las últimas décadas, utilizando datos de diversas fuentes para crear una webstory interactiva. 
 
 Nuestro enfoque se centra en cómo el envejecimiento de la población está afectando a diferentes sectores, como el sistema de pensiones, de salud y el mercado laboral. A través de herramientas de visualización, buscamos hacer accesibles estos datos para comprender mejor los desafíos actuales y futuros de Chile. 
 
