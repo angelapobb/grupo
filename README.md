@@ -17,8 +17,3 @@ Para conocer nuestras reflexiones sobre este proyecto, puedes acceder a los sigu
 *Angela Poblete*
 **[Angela Poblete](https://github.com/angelapobb/grupo/blob/main/Entrega01/reflexi%C3%B3n_integrante-01.md)**
 
-## File Structure
-- `population_distribution_2002.csv`: Clean dataset for 2002 with percentages by age group and region.
-- `population_distribution_2021.csv`: Clean dataset for 2021 with percentages by age group and region.
-- `population_change_2002_2021.csv`: Clean dataset showing the change in percentages by age group between 2002 and 2021.
-
