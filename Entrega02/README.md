@@ -6,4 +6,4 @@ Bienvenidos a nuestro proyecto **Envejecimiento en Chile**. Somos Ángela Poblet
 Puedes acceder al video resumen aquí: [Ver Video](URL_DEL_VIDEO)
 
 ### Carrusel de Instagram
-Accede al carrusel gráfico aquí: [Ver Carrusel](URL_DEL_CARRUSEL)
+Accede al carrusel gráfico aquí: [Ver Carrusel](https://github.com/angelapobb/grupo/blob/main/Entrega02/Carrusel%20instagram%20entrega%202.pdf)
