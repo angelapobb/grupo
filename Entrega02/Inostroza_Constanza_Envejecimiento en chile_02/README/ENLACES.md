@@ -7,3 +7,4 @@ https://cuidadospaliativos.uc.cl/observatorio-de-cuidados-paliativos/situacion-d
 https://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0034-98872020000600799
 https://palabrapublica.uchile.cl/una-vejez-solitaria/
 https://encuestacalidaddevidaenlavejez.uc.cl/wp-content/uploads/2023/08/Libro-completo-VI-Encuesta_compressed.pdf
+https://telencuestas.com/censos-de-poblacion/chile/2024
