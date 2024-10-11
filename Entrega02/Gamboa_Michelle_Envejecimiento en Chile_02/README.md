@@ -49,9 +49,8 @@ El siguiente código se utilizó para cargar la base de datos limpia en un noteb
 
 ```python
 import pandas as pd
+df = pd.read_csv("Tabla dinámica Especialistas.csv", encoding='latin-1')
 
-# Asegúrate de poner el nombre del archivo entre comillas
-df = pd.read_csv('Tabla dinámica Especialistas.csv')
+#Ahora puedes trabajar con el DataFrame df
 
-# Visualizar las primeras filas del DataFrame
-df.head()
+df
