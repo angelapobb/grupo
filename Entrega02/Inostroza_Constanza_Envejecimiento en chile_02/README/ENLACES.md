@@ -6,3 +6,4 @@ https://cuidadospaliativos.uc.cl/observatorio-de-cuidados-paliativos/situacion-d
 [Base de datos.pdf](https://github.com/user-attachments/files/17344351/Base.de.datos.pdf)
 https://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0034-98872020000600799
 https://palabrapublica.uchile.cl/una-vejez-solitaria/
+https://encuestacalidaddevidaenlavejez.uc.cl/wp-content/uploads/2023/08/Libro-completo-VI-Encuesta_compressed.pdf
