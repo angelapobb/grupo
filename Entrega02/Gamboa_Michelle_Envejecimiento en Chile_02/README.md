@@ -35,7 +35,9 @@ Para seleccionar los datos de interés para este trabajo, se realizaron los sigu
 
 **6.Eliminación de categorías:** En el caso de la base de datos de causas de muerte, sólo se mantuvieron los datos de las muertes por “Tumores malignos” y “Enfermedades sistema circulatorio”, para los años 2010 y 2019, puesto que sólo entre estas dos categorías se concentra más del 50% de las muertes en adultos mayores, lo que guió la elección de especialistas en las siguientes bases de datos.
 
-**7.Tablas dinámicas:** Finalmente, los datos de oncólogos y cardiólogos se limpiaron y ordenaron a través de la creación de tablas dinámicas, con el fin de obtener la cantidad de cada especialista por región, y luego ambas tablas dinámicas se unieron en sólo un archivo csv.
+En cuanto a las bases de datos de especialistas, se eliminaron las categorías de número de registro de cada médico así como también sus estudios.
+
+**7.Tablas dinámicas:** Finalmente, los datos de oncólogos y cardiólogos se limpiaron y ordenaron a través de la creación de tablas dinámicas, con el fin de obtener la cantidad de cada especialista por región, contando los RUN para individualizar a cada médico, y luego ambas tablas dinámicas se unieron en sólo un archivo csv.
 
 ## Preguntas que pueden responder las bases de datos limpias
 
