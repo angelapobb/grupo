@@ -17,6 +17,13 @@ Los nuevos datos recopilados buscan responder:
 
 **Estandarización de datos**: Mediante excel se recopilaron los datos seleccionados de las bases confirguradas a través del diseño de tablas con los datos relevantes. 
 
+## **Posibles preguntas**
+1. ¿Qué proporción de la población nacional ocupan las perosnas mayores de 60 años y cómo se proyecta la cifra a futuro?
+2. ¿Cómo es la salud del adulto mayor en Chile?
+3. Qué tan dificil es recibir tratamientos médicos en regiones para el adulto mayor?
+
+
+
 
 
 
