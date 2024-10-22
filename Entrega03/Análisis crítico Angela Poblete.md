@@ -1,8 +1,3 @@
-Análisis crítico Angela Poblete
-Mis disculpas, Ángela. Ahora trabajaré exclusivamente con la información que me has dado para crear tu análisis crítico personal.
-
----
-
 ### Análisis Crítico Personal
 
 #### Aprendizajes
