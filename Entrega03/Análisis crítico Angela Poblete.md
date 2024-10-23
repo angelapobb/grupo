@@ -6,7 +6,7 @@ El proceso de crear la webstory sobre la transformación demográfica en Chile m
 En términos de herramientas, la construcción del perfil de usuario fue fundamental para guiar todas las decisiones visuales y de contenido. Definir claramente a los usuarios nos permitió focalizar los mensajes y asegurar que la información fuera clara y relevante para cada segmento.
 
 #### Proyecciones
-De cara a los próximos pasos, integrar la **identidad visual** en la webstory será crucial para mantener coherencia y atraer a la audiencia objetivo. Los **colores** seleccionados, como el azul marino y el verde claro, proporcionarán una base sólida para distinguir secciones y destacar la información más relevante. Asimismo, la **tipografía** elegida ayudará a que el contenido sea fácilmente legible y agradable visualmente.
+De cara a los próximos pasos, integrar la **identidad visual** en la webstory será crucial para mantener coherencia y atraer a la audiencia objetivo. Los **colores** seleccionados proporcionarán una base sólida para distinguir secciones y destacar la información más relevante. Asimismo, la **tipografía** elegida ayudará a que el contenido sea fácilmente legible y agradable visualmente.
 
 Lo más sencillo será incorporar el **logotipo** y los **colores** dentro del diseño. Estos elementos proporcionarán una identidad visual fuerte y unificada que refuerce el mensaje de la webstory.
 
