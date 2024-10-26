@@ -5,6 +5,6 @@ Bienvenidos a nuestro proyecto Envejecimiento en Chile. Somos Ángela Poblete, M
 
 **Carrusel**
 
-**Video carrusel:** 
-[![Video en YouTube](https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_https://youtu.be/Nkp9Yjaxej0)
+**Video**:
+[![Video Carrusel](https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_https://youtu.be/Nkp9Yjaxej0)
 
