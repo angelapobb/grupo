@@ -4,7 +4,7 @@ Bienvenidos a nuestro proyecto Envejecimiento en Chile. Somos Ángela Poblete, M
 **Nuestro objetivo es analizar cómo ha cambiado la distribución de la población chilena por edad en las últimas décadas.**
 
 **Carrusel**
-[Ver el documento PDF](https://github.com/coniinostrozv/CarruselFinal.pdf/blob/main/documento.pdf)
+[Ver el documento PDF](https://github.com/angelapobb/grupo/blob/main/Entrega03/Carrusel%20Final.pdf)
 
 
 **Video:**
