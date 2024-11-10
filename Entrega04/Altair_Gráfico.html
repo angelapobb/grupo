@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .error {
+        color: red;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.17.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "data": {"name": "data-ad5caf3e27d9f657eb31f3e16d4e05e3"}, "mark": "bar", "encoding": {"color": {"field": "EdadPromedio", "scale": {"scheme": "spectral"}, "type": "quantitative"}, "tooltip": [{"field": "Anio", "type": "quantitative"}, {"field": "EdadPromedio", "type": "quantitative"}], "x": {"field": "Anio", "title": "A\u00f1o", "type": "ordinal"}, "y": {"field": "EdadPromedio", "title": "Edad Promedio de la Poblaci\u00f3n Chilena", "type": "quantitative"}}, "height": 400, "title": "Evoluci\u00f3n de la Edad Promedio de la Poblaci\u00f3n Chilena a lo Largo de los A\u00f1os", "width": 600, "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json", "datasets": {"data-ad5caf3e27d9f657eb31f3e16d4e05e3": [{"EdadPromedio": 19.4, "Anio": 1950}, {"EdadPromedio": 19.49, "Anio": 1955}, {"EdadPromedio": 19.34, "Anio": 1960}, {"EdadPromedio": 19.29, "Anio": 1965}, {"EdadPromedio": 19.7, "Anio": 1970}, {"EdadPromedio": 20.67, "Anio": 1975}, {"EdadPromedio": 21.97, "Anio": 1980}, {"EdadPromedio": 23.42, "Anio": 1985}, {"EdadPromedio": 24.83, "Anio": 1990}, {"EdadPromedio": 26.32, "Anio": 1995}, {"EdadPromedio": 28.03, "Anio": 2000}, {"EdadPromedio": 29.94, "Anio": 2005}, {"EdadPromedio": 31.72, "Anio": 2010}, {"EdadPromedio": 33.33, "Anio": 2015}, {"EdadPromedio": 34.68, "Anio": 2020}, {"EdadPromedio": 36.94, "Anio": 2025}, {"EdadPromedio": 39.46, "Anio": 2030}, {"EdadPromedio": 42.03, "Anio": 2035}, {"EdadPromedio": 44.5, "Anio": 2040}, {"EdadPromedio": 46.82, "Anio": 2045}, {"EdadPromedio": 48.88, "Anio": 2050}, {"EdadPromedio": 50.65, "Anio": 2055}, {"EdadPromedio": 52.17, "Anio": 2060}, {"EdadPromedio": 53.75, "Anio": 2065}, {"EdadPromedio": 55.31, "Anio": 2070}, {"EdadPromedio": 56.69, "Anio": 2075}, {"EdadPromedio": 57.45, "Anio": 2080}, {"EdadPromedio": 57.53, "Anio": 2085}, {"EdadPromedio": 57.47, "Anio": 2090}, {"EdadPromedio": 57.42, "Anio": 2095}, {"EdadPromedio": 57.43, "Anio": 2100}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div class="error" style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
