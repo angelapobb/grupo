@@ -11,7 +11,7 @@ Las visualizaciones se acompañan de crónicas periodísticas que contextualizan
 ## Integrantes del Equipo
 
 1. **Angela Poblete** - Envejecimiento en Magallanes
-2. **[Integrante 2]** - [[Promedio de edad de la población y porcentaje de vejez en Chile]]
+2. **Michele Gamboa** - [Cantidad de especialistas médicos por región, relacionados con mortalidad en tercera y cuarta edad](https://github.com/angelapobb/grupo/tree/main/Entrega04/Gamboa_Michelle_vis_01)
 3. **[Integrante 3]** - [Tema trabajado por el integrante 3]
 
 ### Enlaces Importantes
