@@ -34,7 +34,7 @@ Las visualizaciones se acompañan de crónicas periodísticas que contextualizan
 #### 1. Angela Poblete - **Magallanes y su envejecimiento demográfico**
 - **Tema**: Analiza cómo el envejecimiento en Magallanes supera el promedio nacional, destacando la pérdida de población joven y el aumento del grupo de mayores de 60 años.
 - **Visualización**:
-  - **Archivo PNG**: `visualizacion/Vis_02.png`
+  - **Archivo PNG**: `Vis_02.png`
 - **Crónica**: Incluida en el archivo `cronica.md`.
 - **Ficha técnica**: Detalles del procesamiento de la base de datos en `Ficha_Técnica.md`.
 
