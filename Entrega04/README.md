@@ -16,5 +16,5 @@ Las visualizaciones se acompañan de crónicas periodísticas que contextualizan
 
 ### Enlaces Importantes
 
-- **Video presentación**: [https://youtube.com/shorts/W1b9k7b8K6c]
+- **Video presentación**:[![Video Carrusel](https://youtube.com/shorts/W1b9k7b8K6c)](https://youtube.com/shorts/W1b9k7b8K6c)
 - **PDF del carrusel con diapositivas**: [Ver el documento PDF](https://github.com/angelapobb/grupo/blob/main/Entrega03/Carrusel%20Final.pdf)
