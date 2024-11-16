@@ -11,7 +11,7 @@ Las visualizaciones se acompañan de crónicas periodísticas que contextualizan
 ## Integrantes del Equipo
 
 1. **Angela Poblete** - Envejecimiento en Magallanes
-2. **[Integrante 2]** - [Tema trabajado por el integrante 2]
+2. **[Integrante 2]** - [ Promedio etario y porcentaje de adultos mayores en Chile]
 3. **[Integrante 3]** - [Tema trabajado por el integrante 3]
 
 ### Enlaces Importantes
