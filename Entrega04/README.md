@@ -12,9 +12,9 @@ Las visualizaciones se acompañan de crónicas periodísticas que contextualizan
 
 1. **Angela Poblete** - Envejecimiento en Magallanes
 2. **Michele Gamboa** - [Cantidad de especialistas médicos por región, relacionados con mortalidad en tercera y cuarta edad](https://github.com/angelapobb/grupo/tree/main/Entrega04/Gamboa_Michelle_vis_01)
-3. **[Integrante 3]** - [Tema trabajado por el integrante 3]
+3. **Constanza Inostroza** - ssss
 
 ### Enlaces Importantes
 
-- **Video presentación**: [Subir el link de YouTube aquí]
-- **PDF del carrusel con diapositivas**: [Subir el link al archivo PDF aquí]
+- **Video presentación**: [https://youtube.com/shorts/W1b9k7b8K6c]
+- **PDF del carrusel con diapositivas**: [Ver el documento PDF](https://github.com/angelapobb/grupo/blob/main/Entrega03/Carrusel%20Final.pdf)
