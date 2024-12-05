@@ -1,5 +1,14 @@
 # CRÓNICA
 
+## Chile, un país que envejece: Una mirada regional al cambio demográfico
+En las últimas décadas, el envejecimiento poblacional ha transformado la estructura demográfica de Chile, con un crecimiento significativo del porcentaje de personas mayores de 60 años. Este fenómeno es especialmente evidente en las regiones del extremo sur, como Magallanes y Aysén, donde el incremento ha sido más acelerado que el promedio nacional.
+
+Don Arturo, vecino de Puerto Natales, lo vive de cerca: "Antes había niños jugando por todas partes, hoy somos más los que necesitamos bastón". 
+
+La lejanía y baja densidad dificultan el acceso a servicios de salud especializados para la tercera edad. Situaciones similares enfrenta doña Marta, en Aysén, quien debe viajar largas horas para un control médico.
+
+Ante estos retos,  la necesidad de una estrategia nacional que priorice el bienestar de los adultos mayores en las zonas extremos vuelve latente.
+
 ## El éxodo silencioso de Magallanes
 
 En el extremo sur del mundo, donde la naturaleza se enfrenta a su máxima crudeza, Magallanes vive una paradoja: mientras sus montañas y glaciares se mantienen firmes en el tiempo, su población joven desaparece. En los últimos 20 años, la región ha experimentado una pérdida significativa en los grupos de **0 a 14 años (-7.1%)** y **16 a 59 años (-5.8%)**. Este éxodo silencioso no solo redefine el paisaje humano, sino que plantea preguntas urgentes sobre el futuro de este rincón austral.
