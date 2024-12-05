@@ -15,7 +15,7 @@ Facilita la comparación entre regiones y con el promedio nacional.
 - Barras naranjas: Cambios específicos en cada región.
 - Línea azul: Promedio nacional (8,1%) como indicador de referencia.
 
-## **Mensajes que se Quieren Comunicar##
+## **Mensajes que se Quieren Comunicar**
  - **Desigualdades Regionales:**
 Las regiones del sur, como Magallanes (11,9%), Biobío (12,1%) y Ñuble (11,6%), lideran en el aumento de población mayor, reflejando dinámicas demográficas aceleradas en estas zonas.
 En contraste, regiones como Tarapacá y Atacama muestran menores incrementos, indicando un envejecimiento menos pronunciado.
