@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .error {
+        color: red;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.17.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "data": {"name": "data-000369988b2843b6b3c0b574f80a94f7"}, "mark": "bar", "encoding": {"color": {"field": "Cambio (%)", "scale": {"scheme": "viridis"}, "type": "quantitative"}, "tooltip": [{"field": "Regi\u00f3n", "type": "nominal"}, {"field": "Cambio (%)", "type": "quantitative"}], "x": {"field": "Regi\u00f3n", "sort": null, "title": "Regi\u00f3n", "type": "nominal"}, "y": {"field": "Cambio (%)", "title": "Cambio (%)", "type": "quantitative"}}, "height": 400, "title": "Cambio porcentual de la poblaci\u00f3n mayor por regi\u00f3n", "width": 800, "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json", "datasets": {"data-000369988b2843b6b3c0b574f80a94f7": [{"Regi\u00f3n": "total pa\u00eds", "Cambio (%)": 8.1}, {"Regi\u00f3n": "Arica y Parinacota", "Cambio (%)": 9.0}, {"Regi\u00f3n": "Tarapac\u00e1", "Cambio (%)": 6.3}, {"Regi\u00f3n": "Antofagasta", "Cambio (%)": 8.8}, {"Regi\u00f3n": "Atacama", "Cambio (%)": 7.0}, {"Regi\u00f3n": "Coquimbo", "Cambio (%)": 6.9}, {"Regi\u00f3n": "Valpara\u00edso", "Cambio (%)": 8.7}, {"Regi\u00f3n": "Metropolitana", "Cambio (%)": 7.2}, {"Regi\u00f3n": "O\u2019Higgins", "Cambio (%)": 9.3}, {"Regi\u00f3n": "Maule", "Cambio (%)": 9.8}, {"Regi\u00f3n": "\u00d1uble", "Cambio (%)": 11.6}, {"Regi\u00f3n": "Biob\u00edo", "Cambio (%)": 12.1}, {"Regi\u00f3n": "La Araucan\u00eda", "Cambio (%)": 11.4}, {"Regi\u00f3n": "Los R\u00edos", "Cambio (%)": 10.2}, {"Regi\u00f3n": "Los Lagos", "Cambio (%)": 8.5}, {"Regi\u00f3n": "Ays\u00e9n", "Cambio (%)": 9.5}, {"Regi\u00f3n": "Magallanes", "Cambio (%)": 12.9}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div class="error" style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
