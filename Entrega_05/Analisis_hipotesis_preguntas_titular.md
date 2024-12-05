@@ -1,6 +1,22 @@
-# Análisis Inicial del Proyecto
+# Propuesta de Historia
 
-## **Preguntas Iniciales**
+## **¿Qué queremos contar?**
+
+Queremos evidenciar las desigualdades que enfrenta la región de Magallanes en cuanto al acceso a la salud, específicamente en el contexto del envejecimiento acelerado de su población. A través de esta historia, buscamos mostrar cómo la falta de especialistas médicos, como oncólogos y cardiólogos, agrava las brechas sociales y afecta la calidad de vida de los adultos mayores. Nuestro enfoque incluye analizar el éxodo de población joven y cómo esto impacta la estructura demográfica y los servicios médicos de la región.
+
+---
+
+## **Análisis de Hipótesis**
+
+### **Hipótesis Inicial**
+El envejecimiento acelerado y la desigualdad en la distribución de especialistas médicos agravan las brechas de acceso a la salud en las regiones extremas de Chile, impactando negativamente la calidad de vida de sus habitantes mayores.
+
+### **Comentario sobre su Evolución**
+A medida que avanzamos en nuestra investigación, identificamos que no solo las carencias en especialistas médicos son un problema, sino también el "éxodo silencioso" de población joven, que deja a Magallanes con una población predominantemente mayor y dependiente. Este fenómeno enriqueció nuestra hipótesis inicial, ampliando el análisis para incluir la migración interna y la baja natalidad como factores críticos.
+
+---
+
+## **Preguntas a Responder**
 
 1. ¿Cuáles son las regiones con mayor tasa de envejecimiento en el país?
 2. ¿Qué regiones tienen la mayor y menor cantidad de oncólogos y cardiólogos?
@@ -10,30 +26,12 @@
 
 ---
 
-## **Hipótesis Inicial**
-El envejecimiento acelerado y la desigualdad en la distribución de especialistas médicos agravan las brechas de acceso a la salud en las regiones extremas de Chile, impactando negativamente la calidad de vida de sus habitantes mayores.
+## **Titular del Reportaje**
+**"Donde el tiempo corre más rápido: Envejecimiento y salud en el sur de Chile"**
 
 ---
 
-## **Análisis de los Datos Obtenidos**
+## **Comentario sobre su Evolución**
 
-### **Distribución del Envejecimiento**
-- Los datos muestran un aumento acelerado en la proporción de adultos mayores en todo el país, siendo más significativo en las regiones del sur como Magallanes.
-- Entre 2002 y 2021, Magallanes experimentó un incremento del 12.9% en la población mayor de 60 años.
+Inicialmente, nuestro enfoque estaba en las desigualdades en salud para adultos mayores. Sin embargo, con los datos obtenidos, ajustamos nuestro ángulo en Magallanes. Este cambio permitió enriquecer la narrativa, haciendo el reportaje más integral al abordar tanto las causas como las consecuencias de las desigualdades en salud en las regiones extremas.
 
-### **Distribución de Especialistas Médicos**
-- Magallanes presenta un déficit crítico en oncólogos y cardiólogos en comparación con otras regiones del país.
-- La región cuenta con menos de 5 especialistas por cada 100,000 habitantes, mientras que en zonas urbanas como la Región Metropolitana esta cifra supera los 20 especialistas por cada 100,000 habitantes.
-
-### **Impacto de las Desigualdades**
-- La combinación del envejecimiento acelerado y la falta de especialistas médicos genera un círculo vicioso: los adultos mayores enfrentan mayores dificultades para acceder a diagnósticos y tratamientos oportunos.
-- Los datos también reflejan que estas desigualdades se acentúan por el éxodo de población joven, dejando una región predominantemente envejecida y con necesidades médicas críticas.
-
-### **Comparaciones Regionales**
-- Mientras que el norte y el centro del país presentan mejores indicadores en la disponibilidad de especialistas médicos, el sur, especialmente Magallanes, enfrenta desafíos significativos.
-- La migración interna hacia centros urbanos acentúa estas diferencias, limitando aún más los recursos médicos disponibles en regiones extremas.
-
----
-
-### **Conclusión del Análisis**
-Los datos confirman que la hipótesis inicial es válida: Magallanes, como región extrema, sufre desproporcionadamente los efectos del envejecimiento poblacional y la desigualdad en la distribución de especialistas médicos. Estas condiciones no solo afectan la calidad de vida de los adultos mayores, sino que también representan un desafío estructural que requiere atención urgente a través de políticas públicas y estrategias de redistribución de recursos médicos.
