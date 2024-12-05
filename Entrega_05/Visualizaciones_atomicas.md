@@ -1,1 +1,0 @@
-**Visualizaciónes atómicas**
