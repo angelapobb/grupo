@@ -82,8 +82,8 @@ Con el avance del proyecto, identificamos que Magallanes no solo enfrenta un env
 ---
 
 ### **Enlaces**
-- **Video de Presentación:** [[Agregar enlace aquí](https://youtube.com/shorts/p2kUPmjWDLQ?feature=share)]
-- **Carrusel:** [Agregar enlace aquí]
+- **Video de Presentación:** [[Aquí](https://youtube.com/shorts/p2kUPmjWDLQ?feature=share)]
+- **Carrusel:** [[Aquí](https://github.com/angelapobb/grupo/blob/main/Entrega_05/Carrusel%20instagram%20entrega%202%20(6).pdf.pdf)]
 - **Webstory Publicada:** [Agregar enlace aquí]
 
 ---
