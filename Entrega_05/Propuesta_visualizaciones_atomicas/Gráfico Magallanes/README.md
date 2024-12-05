@@ -16,7 +16,7 @@ El gráfico compara los cambios porcentuales en la población de Magallanes con 
 
 3. **Variables Representadas:**
    - **Región Magallanes:** Cambio específico en la población de Magallanes (columna azul).
-   - **Total País:** Cambio en el promedio nacional (columna naranja).
+   - **Total País:** Cambio en el promedio nacional (columna naranja).     
 
 ---
 
