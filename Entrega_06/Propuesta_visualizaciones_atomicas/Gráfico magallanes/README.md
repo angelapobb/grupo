@@ -3,6 +3,8 @@
 ## **Descripción del Gráfico**
 El gráfico compara los cambios porcentuales en la población de Magallanes con el total nacional entre los años 2002 y 2021, desglosado por grupos etarios: 0-14 años, 16-59 años y mayores de 60 años. Está dividido en dos paneles: el primero muestra los datos específicos de Magallanes (en azul) y el segundo representa el promedio del total país (en naranja).
 
+![Gráfico Magallanes](gráfico%20magallanes.jpg)
+
 ---
 
 ## **Dimensiones del Gráfico**
