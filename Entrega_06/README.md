@@ -100,6 +100,7 @@ Las preguntas que buscamos responder con nuestra investigación son:
 | Botones interactivos            |          ✅                |                          |                          |
 | Estilo CSS                      |           ✅                 |                          |       ✅                   |
 | Edición HTML                    |          ✅                |                          |                          |
+| Favicon |   ✅                |            |            |
 | Carrusel y videos |                   | ✅               |     ✅          |
 | Crónica un país que envejece    |                          |           ✅               |                          |
 | Gráfico Altair variación población |                        |           ✅               |                          |
