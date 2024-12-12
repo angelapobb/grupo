@@ -98,7 +98,7 @@ Las preguntas que buscamos responder con nuestra investigación son:
 | Logotipo "Chile"               |                          |                          |       ✅                    |
 | Imagen título "Donde el tiempo..." |          ✅               |                          |                          |
 | Botones interactivos            |          ✅                |                          |                          |
-| Estilo CSS                      |                          |                          |       ✅                   |
+| Estilo CSS                      |           ✅                 |                          |       ✅                   |
 | Edición HTML                    |          ✅                |                          |                          |
 | Carrusel y videos |                   | ✅               |     ✅          |
 | Crónica un país que envejece    |                          |           ✅               |                          |
@@ -113,6 +113,7 @@ Las preguntas que buscamos responder con nuestra investigación son:
 | Card interactiva                |                          |           ✅               |                          |
 | Búsqueda de imágenes            |             ✅             |           ✅               |                          |
 | Organización repositorio Github |                          |                          |             ✅             |
+| Handout |                    |                     |  ✅   |
 | Investigación                   |       ✅                   |          ✅                |            ✅              |
 | Readme                          |        ✅                  |                          |              ✅          |
 | Lista referencias               |   ✅   |              |              |      
