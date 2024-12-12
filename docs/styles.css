@@ -1,0 +1,171 @@
+/* Estilo general */
+body {
+  font-family: 'Bree Serif', serif;
+  background: #2F354A;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero Section */
+.hero-image {
+  background-image: url('magallanes.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #FFFFFF;
+  position: relative;
+}
+
+.hero-content {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 900px;
+}
+
+h1 {
+  font-family: 'League Gothic', sans-serif;
+  font-size: 70px;
+  color: #f58518;
+}
+
+h3 {
+  font-family: 'League Gothic', sans-serif;
+  font-size: 40px;
+  color: #f58518;
+  text-align: center;
+}
+
+.subtitle {
+  font-family: 'League Gothic', sans-serif;
+  font-size: 40px;
+  color: #4c78a8;
+}
+
+.bajada {
+  font-size: 18px;
+  line-height: 1.8;
+  margin: 20px 0;
+  text-align: justify;
+}
+
+/* Botón */
+
+button:hover {
+  background: #DC4719;
+}
+.button-container {
+  display: flex;                /* Pone los botones en una línea */
+  justify-content: center;      /* Centra horizontalmente */
+  gap: 15px;                     /* Espacio entre botones */
+  margin-top: 10px;
+}
+
+/* Estilos de los botones */
+.button-container button {
+  padding: 20px 35px;            /* Botones más pequeños */
+  font-size: 14px;              /* Texto más pequeño */
+  cursor: pointer;
+  background: #DC4719;
+  color: #FFFFFF;  
+  border: none; 
+  border-radius: 5px;          /* Bordes redondeados */
+  transition: all 0.3s ease;   /* Animación suave */
+}
+
+
+/* Secciones Generales */
+section {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 1000px; /*Limita el maximo ancho de las secciones*/
+  /*background: #FFFFFF;
+  color: #2F354A;*/
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-family: 'League Gothic', sans-serif;
+  /*color: #DC4719;*/
+  color: #f58518;
+  text-align: center;
+  font-size: 3em;
+}
+
+p {
+  font-size: 18px;
+}
+
+/* Alineación de imágenes en la sección Especialistas por Región */
+.visualization {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Asegura que los elementos estén alineados al principio */
+  margin-top: 30px;
+  flex-wrap: wrap; /* Asegura que se ajusten bien en pantallas pequeñas */
+}
+
+.visualization img {
+  width: 45%; /* Las imágenes ocupan el 48% del ancho */
+  border-radius: 10px;
+  margin-bottom: 20px; /* Añadido margen inferior para separación entre imágenes y texto */
+}
+
+.visualization-img2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.visualization-text {
+  width: 45%; /* El texto ocupa el 48% del espacio */
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 20px; /* Añadido margen inferior */
+}
+
+.visualization-text h3 {
+  font-family: 'League Gothic', sans-serif;
+  font-size: 2em;
+  color: #f58518;
+}
+
+.visualization-text p {
+  font-family: 'Bree Serif', serif;
+  font-size: 1.2em;
+  color: #FFFFFF;
+  text-align: justify;
+}
+
+.ilustraciones {
+ max-height: 300px;
+ max-width: 300px;
+ align-items: center;
+ text-align: center;
+ display: flex;
+ margin: auto;
+ margin-top: -20px;
+ margin-bottom: 40px;
+}
+/* Footer */
+footer {
+  /*background-color: #F3F2FE;
+  color: #2F354A;*/
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #F3F2FE;
+  padding: 20px;
+  text-align: center;
+}
+
+footer a {
+  color: #2F354A;
+  text-decoration: none;
+}

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<!-- Sección Favicon -->
+<link rel="icon" href="favicon.png" type="imagen_favicon" sizes="96x96"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Titulo de Pagina -->
+  <title>Donde el tiempo corre más rápido</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.17.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <header class="hero-image">
+    <div class="hero-content">
+        <!--Imagen de titulo-->
+        <img src="Donde_el_tiempo_corre_mas_rapido_Envejecimiento_y_salud_en_el_sur_de_Chile.png" alt="Imagen_titulo" class="aligned-image" style="width:100%; height:auto;">
+        <!--Bajada del titulo-->
+        <p class="bajada">
+        En el extremo sur del mundo, donde la naturaleza se enfrenta a su máxima crudeza, las regiones del sur de Chile viven una paradoja: mientras sus montañas y glaciares se mantienen firmes en el tiempo, su población joven desaparece.  
+        Un claro ejemplo es la región de Magallanes, en donde el envejecimiento poblacional ha visto un aumento del 11.5% en 2002 al 18.6% en 2021, un crecimiento significativo de la población adulta mayor que refleja una tendencia general en las regiones del sur del país.  
+        Esta situación trae nuevas problemáticas ligadas con las necesidades de salud de las personas mayores a 60 años, con énfasis en el área de cardiología y oncología.  
+        En esta investigación, estudiamos el cambio generacional a nivel nacional y regional a través de los años, así como la distribución de oncólogos y cardiólogos a lo largo de todo el país.
+      </p>
+      <div class="button-container">
+      <button onclick="scrollToSection('imagen1')">Una mirada regional</button>
+      <button onclick="scrollToSection('imagen2')">Éxodo silencioso de Magallanes</button>
+      <button onclick="scrollToSection('imagen3')">Nuevos desafíos</button>
+      <button onclick="scrollToSection('imagen4')">Sistema de salud al límite</button>
+      <button onclick="scrollToSection('imagen5')">Descentralización médica</button>    
+    </div>
+  </header>
+  <!-- Sección de Envejecimiento -->
+  <section id="exploration">
+    <div class="visualization">
+      <img id="imagen1" src="icono-envejecimiento.jpg" alt="Imagen envejecimiento">
+      <div class="visualization-text">
+        <!--Titulo sección Envejecimiento-->
+        <h3>Chile, un país que envejece: Una mirada regional al cambio demográfico</h3>
+        <!--Cronica sección Envejecimiento-->
+        <p>En las últimas décadas, el envejecimiento poblacional ha transformado la estructura demográfica de Chile, con un crecimiento significativo del porcentaje de personas mayores de 60 años. Este fenómeno es especialmente evidente en las regiones del extremo sur, como Magallanes y Aysén, donde el incremento ha sido más acelerado que el promedio nacional.
+          Don Arturo, vecino de Puerto Natales, lo vive de cerca: "Antes había niños jugando por todas partes, hoy somos más los que necesitamos bastón".
+          La lejanía y baja densidad dificultan el acceso a servicios de salud especializados para la tercera edad. Situaciones similares enfrenta doña Marta, en Aysén, quien debe viajar largas horas para un control médico.
+          Ante estos retos, la necesidad de una estrategia nacional que priorice el bienestar de los adultos mayores en las zonas extremos vuelve latente.
+        </p>
+        <!-- Grafico Interactivo Sección Envejecimiento-->
+      </div>
+        <div id="vis" style="margin-left: 60px; margin-bottom: 20px;"></div>
+  </section>
+
+
+ <img id="imagen2" src="ilust1.png" alt="Ilustración pareja adultos mayores" class="ilustraciones">
+
+<!-- Sección magallanes -->
+<section id="magallanes">
+  <!--Titulo sección Magallanes-->
+  <h2>El éxodo silencioso de Magallanes</h2>
+  <div class="visualization-img2">
+    <img src="magallanes-ciudad.jpg" alt="Foto ciudad Magallanes">
+  </div>
+  <p style="text-align: right;">Fuente: Centro de Ciencia del Clima y la Resiliencia - CR2</p> 
+  <h3>Un cambio demográfico alarmante</h3>
+  <!--Cronica parte 1 sección Magallanes-->
+  <p>En el extremo sur del mundo, donde la naturaleza se presenta en su máxima crudeza, la Región de Magallanes enfrenta una paradoja inquietante: mientras sus montañas y glaciares permanecen imperturbables, su población joven está desapareciendo. Este fenómeno, lejos de ser anecdótico, redefine las bases sociales y económicas de este rincón austral. 
+  <p>En los últimos 20 años, Magallanes ha visto una disminución significativa en los grupos etarios de 0 a 14 años (-7.1%) y 16 a 59 años (-5.8%), según los datos representados en el gráfico más relevante de nuestra investigación. La otra cara de esta transición demográfica es el crecimiento del grupo etario de 60 años o más, que ha experimentado un aumento del 12.9% en las últimas dos décadas. Este cambio señala que la población mayor, quienes a menudo son los pilares de la identidad cultural y social de Magallanes, están quedando como los principales habitantes de la región. Sin embargo, este aumento no ha ido acompañado de un desarrollo proporcional en infraestructura y servicios, especialmente en el área de salud, lo que genera un desafío estructural sin precedentes.</p>
+    <!--Grafico sección Magallanes-->
+    <div class="visualization" style="justify-content: center;">
+      <div id="vis2"></div>
+    </div>
+    <!--Cronica parte 2 sección Magallanes-->
+    <!--Subtitulo sección Magallanes-->
+  <h3>Comprendiendo los números negativos</h3>
+  <p>El decrecimiento en los grupos de 0-14 y 16-59 años representa un desequilibrio crítico en la estructura demográfica de Magallanes. Este fenómeno no solo implica una pérdida de fuerza laboral, sino también una disminución en la capacidad de sostener servicios públicos esenciales. Además, el éxodo juvenil no es un simple resultado de preferencias personales: es un síntoma de una región que no ha logrado ofrecer suficientes oportunidades económicas, educativas y culturales para retener a sus habitantes más jóvenes.</p>
+  <p>Los números negativos del gráfico reflejan esta realidad en toda su crudeza: mientras que el resto del país también enfrenta una disminución en estos grupos etarios, Magallanes sobresale por la profundidad de su pérdida. Esta diferencia destaca la necesidad de abordar políticas específicas que atiendan las condiciones particulares de las regiones extremas.</p>    
+    <!--Cronica parte 3 sección Magallanes-->
+    <!--Subtitulo sección Magallanes-->
+  <h3>Un futuro incierto, pero no inevitable</h3>
+  <p>Este éxodo de población joven plantea retos profundos y estructurales. Con menos personas en edad de trabajar, la economía local se enfrenta a una desaceleración que compromete tanto el desarrollo de la región como la sostenibilidad de sus servicios públicos. Las comunidades pierden su tejido social, y el envejecimiento de la población eleva la demanda de atención médica y servicios especializados que actualmente son insuficientes.</p>
+  <p>Pero este destino no está escrito en piedra. Los datos, por alarmantes que sean, son también una invitación a actuar. Incentivos económicos, como subsidios para profesionales jóvenes, programas de retención de talentos, e inversiones en infraestructura y desarrollo local, pueden revertir esta tendencia. Además, políticas que promuevan la natalidad y faciliten el arraigo familiar son fundamentales para revitalizar la región.</p>
+</section>
+
+<img id="imagen3" src="ilust3.png" alt="Ilustración adulta mayor en silla de ruedas" class="ilustraciones">
+
+  <!-- Sección Nuevos Desafíos en Salud -->
+  <section id="new-challenges">
+    <!-- Titulo Sección Nuevos Desafíos en Salud -->
+    <h2>¿Estamos preparados para el envejecimiento de la población?</h2>
+    <div class="visualization-img2">
+      <img src="img-manos.jpg" alt="Foto manos tomandp un bastón" style="max-width: 720px; max-height: 550px;">
+    </div>
+     <h3>Nuevos desafíos en salud</h3>
+    <!-- Cronica Nuevos Desafíos en Salud -->
+<p>El envejecimiento acelerado de la población pone de manifiesto una preocupación clave: las necesidades de salud específicas de los mayores de 60 años. Las enfermedades cardiovasculares y los tumores malignos se han convertido en las principales causas de muerte en esta población, acentuando la urgente necesidad de especialistas en cardiología y oncología. Sin una respuesta adecuada, muchos adultos mayores enfrentan largas esperas y la incertidumbre de no recibir la atención que tanto necesitan.</p>
+<p>Esto además de permitir el avance de enfermedades que podrían tratarse a tiempo, los expone a posibles deterioros progresivos de su salud, y en el peor de los casos, a consecuencias irreversibles. La falta de tratamiento oportuno impacta la calidad de vida de los adultos mayores y también puede acortar sus años, dejando a familias y comunidades lidiando con pérdidas emocionales, sociales y económicas que, en otros contextos, podrían haberse evitado.</p>
+    <!-- Grafico Flourish Sección Nuevos Desafíos en Salud -->
+      <div class="flourish-embed flourish-chart" data-src="visualisation/20536129"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20536129/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
+<p>De acuerdo con el análisis del INE en el informe <a href="https://www.ine.gob.cl/docs/default-source/proyecciones-de-poblacion/publicaciones-y-anuarios/base-2017/ine_estimaciones-y-proyecciones-de-poblaci%C3%B3n-1992-2050_base-2017_s%C3%ADntesis.pdf?sfvrsn=c623983e_6" style="color: #DC4719">Estimaciones y proyecciones de población. Chile 1992-2050</a>, tanto la esperanza de vida al nacer como la tasa bruta de mortalidad han crecido y lo seguirán haciendo. Esto se debe a que, si bien el país envejece, las muertes de personas mayores van en aumento.</p>
+<p>Un reflejo de esta realidad es que, según <a href="https://www.latercera.com/que-pasa/noticia/santiago-no-es-chile-nuevo-informe-revela-la-dramatica-falta-de-medicos-especialistas-en-regiones/7I3I7SGRF5GCZPKG5VQCFH7RRM/#" style="color: #DC4719">cifras de la Subsecretaría de Redes Asistenciales</a>, al 31 de agosto de 2023, 23.263 personas fallecieron esperando una atención médica de especialidad. Estas cifras, dolorosamente altas, evidencian una crisis en el acceso a especialistas que afecta a todo el país, pero golpea de forma particularmente severa a los adultos mayores y a las regiones más apartadas.</p>
+  
+    <h3>Un llamado a la acción</h3>
+  <p>Según datos de la <a href="https://www.ufro.cl/index.php/noticias/12-destacadas/6898-opinion-rector-eduardo-hebel-weiss-especialistas-medicos-santiago-es-chile" style="color: #DC4719">Universidad de La Frontera</a> basados en registros de la Superintendencia de Salud a julio de 2023, la Región Metropolitana concentra 22.740 especialistas médicos, lo que equivale a 2,71 médicos por cada mil habitantes. Sin embargo, en regiones como Tarapacá, Magallanes y Aysén, hay menos de 200 médicos especialistas para toda la población. Esta inequidad es particularmente preocupante en un país que envejece rápidamente, donde el acceso a un especialista puede determinar la supervivencia.</p> 
+  <p>El panorama en el sector público da cuenta de aumentos significativos en comparación con 2021, con 7.935.414 consultas médicas de especialidad y 1.557.006 consultas nuevas odontológicas. Sin embargo, las cifras no son suficientes para cubrir la creciente demanda de especialistas, ligadas al envejecimiento de la población a nivel nacional.</p> 
+  <p>Durante 2022, se registraron 3.949.739 atenciones GES en el sistema público, de las cuales un 1,5% no se cumplió o se retrasó, afectando a 61.191 personas. Aunque el porcentaje puede parecer bajo, cada retraso representa una vida que queda en suspenso, especialmente en las regiones más afectadas por la falta de especialistas. A continuación se presenta un gráfico que contiene algunas de las enfermedades y tratamientos GES que tuvieron retrasos, según la información de FONASA recabada por la <a href="https://www.clinicasdechile.cl/wp-content/uploads/2023/12/Dimensionamiento-Completo-2022.pdf"style="color: #DC4719">Asociación Clínicas de Chile</a></p>
+  <div class="flourish-embed flourish-hierarchy" data-src="visualisation/20751292"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20751292/thumbnail" width="100%" alt="hierarchy visualization" /></noscript></div>
+<p>Este gráfico no incluye las enfermedades y tratamientos que no afectan a los adultos mayores, al ser este el grupo que estamos analizando. Dejando fuera garantías destinadas a bebés e infantes, personas hasta 45 años y embarazadas, se obtiene un listado de necesidades de salud que podrían tener personas sobre los 60 años. Algunas enfermedades del listado, como la epilepsia, tipos de cáncer o problemas oftalmológicos, pueden presentarse en cualquier etapa de la vida, sin embargo, las personas mayores suelen tener más de un problema de salud, algunos de los cuales podrían estar en el listado. Hay otros que se relacionan evidentemente con la edad, como el Alzheimer, cataratas o las ortesis y ayudas técnicas destinadas a personas sobre 65 años.</p>
+<p>Con todo, es destacable que un gran porcentaje de los retrasos en atenciones GES se vinculan con enfermedades cardiovasculares y oncológicas, las que representan la mayor tasa de mortalidad en adultos mayores. Además, son las áreas en las que más garantías diferentes se encuentran con retraso. Por estas razones, a continuación se analizará sobre la importancia de estos especialistas médicos para el grupo etario analizado y la realidad de la distribución en el país, en comparación con el envejecimiento demográfico al que nos enfrentamos.</p>
+</section>
+
+<img id="imagen4" src="ilust2.png" alt="Ilustración adulto mayor en silla de ruedas" class="ilustraciones">
+
+  <!-- Sección Especialistas por Región -->
+  <section id="specialists">
+    <!-- Titulo Sección Especialistas por Región -->
+    <h2>Un sistema de salud al límite</h2>
+    <div class="visualization-img2">
+      <img src="icono-medico.jpg" alt="Adulta mayor en hospital" style="max-width: 720px; max-height: 550px;">
+    </div>
+    <!-- Cronica 1 Sección Especialistas por Región -->
+    <p>En todo el país hemos visto un aumento de la población de la tercera y cuarta edad, pero envejecer en el sur de Chile significa enfrentarse a grandes retos, especialmente cuando se trata de la salud. En Magallanes, una región donde los lazos comunitarios son fuertes pero los recursos médicos son limitados, el envejecimiento poblacional ha crecido de manera notable: hace dos décadas, apenas un 11,5% de la población tenía más de 60 años, mientras que hoy esa cifra se ha elevado a un 18,6%.</p>
+    <p>El envejecimiento poblacional ha transformado el panorama social de la región, con casi uno de cada cinco de sus habitantes formando parte de la población mayor de 60 años. Lo anterior revela que a pesar de que existe un aumento en la esperanza de vida y un crecimiento en la población adulta mayor, podría existir un problema en la calidad de vida de estas, a causa de la falta de especialistas que traten las enfermedades que podrían surgir a causa de su edad.</p> 
+    <p>Como las principales causas de muerte en adultos mayores tienen relación con enfermedades circulatorias y tumores malignos, se analizará la presencia de los especialistas en estas áreas, con el fin de analizar si nuestro sistema de salud actual está en capacidad de enfrentar los nuevos desafíos de una sociedad que envejece a pasos agigantados.</p> 
+    <p>Cifras recientes sobre la distribución de cardiólogos y oncólogos en el país, obtenidas de la <a href="https://rnpi.superdesalud.gob.cl/#" style="color: #DC4719">Superintendencia de Salud</a>, revelan una alarmante concentración de especialistas en sólo algunas regiones, dejando al resto con una cobertura extremadamente limitada. Según los datos obtenidos, a octubre de 2024 había 569 cardiólogos y 155 oncólogos en Chile. Sin embargo, esta distribución dista mucho de ser equitativa.</p>
+        <!-- Grafico Flourish 1 Especialistas por Región -->
+    <div class="flourish-embed flourish-chart" data-src="visualisation/20536000"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20536000/thumbnail" width="100%" alt="chart visualization" /></noscript></div>      
+    <!-- Cronica 2 Especialistas por Región -->
+    <div class="visualization">
+<p>La distribución de especialistas médicos en Chile pone en evidencia una realidad profundamente desigual. Mientras algunas regiones concentran un alto número de profesionales, otras carecen incluso de la presencia mínima necesaria para atender a su población, particularmente a los adultos mayores, que son quienes más demandan servicios especializados en cardiología y oncología.</p>
+<p>En el caso de los cardiólogos, la disparidad es evidente. La región Metropolitana lidera con 233 especialistas, seguida por Valparaíso y Bío Bío, con 62 y 63 respectivamente. Juntas, estas tres regiones concentran casi el 70% de los especialistas cardiólogos. En el otro extremo, regiones como Aysén, con sólo 1 cardiólogo, mientras Magallanes y Arica y Parinacota tienen 2 y 3, respectivamente.</p> 
+<p>Una situación similar ocurre con los oncólogos. La Región Metropolitana concentra a 81 de estos profesionales, seguida por Valparaíso con 20 y Bío Bío con 11. En contraste, Atacama, Ñuble y Aysén no cuentan con ningún oncólogo, mientras que Magallanes y Arica y Parinacota tienen apenas 1.</p>
+<p>Los oncólogos y cardiólogos son especialistas escasos en todo el país, por lo que para representar una tasa de porcentaje comprensible de la capacidad de atención en estas áreas, en el siguiente gráfico se calculó la cantidad de especialistas por cada 100 habitantes del total de la población mayor a 60 años en cada región con los datos del <a href="https://resultados.censo2017.cl/"style="color: #DC4719">Censo 2017.</a></p>
+    </div>
+    <!-- Grafico Flourish 2 Especialistas por Región -->
+    <div class="flourish-embed flourish-chart" data-src="visualisation/20535648"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20535648/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
+<p>En las regiones extremas del norte y sur del país, la distribución de oncólogos y cardiólogos no sigue el ritmo del gran cambio demográfico que estamos viviendo. Regiones como la Metropolitana o Valparaíso tienen un acceso a especialistas notablemente mayor a regiones como Arica, Tarapacá, Aysén y Magallanes. Aunque sigue siendo insuficiente, pues de acuerdo con la <a href="https://www.latercera.com/que-pasa/noticia/santiago-no-es-chile-nuevo-informe-revela-la-dramatica-falta-de-medicos-especialistas-en-regiones/7I3I7SGRF5GCZPKG5VQCFH7RRM/#"style="color: #DC4719">Proyección 2023 de población por regiones del país</a>, el número de especialistas por 1.000 habitantes en Chile debería ser de 2,25.</p>
+<p>Estas cifras reflejan una clara desigualdad entre regiones, con una concentración de especialistas en las regiones centrales y más urbanizadas. En regiones como la Metropolitana y Valparaíso se encuentran la mayoría de los recursos médicos, revelando diferencias notables con el norte y sur del país, lo que pone en evidencia la gran desigualdad que afecta la calidad de vida de los adultos mayores y los desafíos de equidad en el acceso a la salud en Chile.</p>
+<p>Regiones intermedias como Coquimbo y Maule cuentan con cifras más balanceadas, pero siguen estando lejos de la concentración en las zonas centrales. En el sur, aunque algunas regiones como Bío Bío cuentan con una cantidad considerable de especialistas, otras como Los Ríos y Los Lagos muestran un déficit crítico, con apenas 35 cardiólogos y 7 oncólogos combinados para atender a una población que demanda cada vez más atención médica especializada.</p>
+<p>El extremo norte de Chile, con regiones como Arica y Parinacota y Tarapacá, enfrenta grandes limitaciones. Arica, por ejemplo, tiene solo 3 cardiólogos y 1 oncólogo. Tarapacá supera estas cifras por muy poco: con un total de 6 cardiólogos y 3 oncólogos. En cuanto al extremo sur de nuestro país, donde el envejecimiento de la población se acelera, la situación es particularmente crítica en Aysén y Magallanes. En ambas regiones los especialistas médicos son escasos, estando lejos de cubrir las crecientes necesidades de su población mayor. La lejanía geográfica y las duras condiciones climáticas le agregan otra capa de dificultad a la retención de especialistas y al acceso oportuno a tratamientos y diagnósticos.</p>
+<div class="visualization-img2">
+  <img src="hosp.jpg" alt="Sala de hospital" style="max-width: 720px; max-height: 550px;">
+</div>
+<p>Estas cifras reflejan una preocupante realidad que afecta a las zonas geográficas extremas del país, donde la distribución desigual de especialistas médicos deja a miles de personas sin atención adecuada. En estas regiones, no sólo los números son bajos, sino que la distancia hacia los centros de atención especializados es un obstáculo adicional, agravado por la falta de recursos y la poca infraestructura en salud que dificulta garantizar servicios básicos para las comunidades más apartadas.</p> 
+<p>En este panorama de desigualdad entre las zonas extremas y rurales, versus las grandes ciudades y urbes, destaca la región de Magallanes, porque es la que ha visto un mayor porcentaje de envejecimiento en los últimos años, sin embargo, el acceso a especialistas no ha aumentado para atender las nuevas necesidades de una población envejecida, que además crece rápidamente.</p> 
+<p>Con 2 cardiólogos y 1 oncólogo en la región, para una población total de 166.533 habitantes, de los cuales 28.210 son personas mayores de 60 años, surgen problemáticas como largas listas de espera, traslados a otras ciudades y falta de acceso tratamientos oportunos, que puede llevar a un deterioro en la calidad de vida, o en el peor de los casos, muertes que podrían ser evitadas, de no ser por el insuficiente soporte médico en la zona.</p>
+</section>
+
+<img id="imagen5" src="ilust4.png" alt="Ilustración adulta mayor haciendo yoga" class="ilustraciones">
+
+<!-- Sección Conclusión -->
+ <section id="Conclusión">
+  <h2>Descentralización médica</h2>
+  <h3>Una prioridad inaplazable</h3>
+<p>A lo largo de esta investigación, hemos analizado el fenómeno del envejecimiento, el cual avanza más rápido que las políticas públicas implementadas para enfrentarlo. Este crecimiento en la población mayor ha evidenciado nuevas problemáticas ligadas a la salud: la necesidad de más especialistas que puedan atender las enfermedades que más mortalidad causan en este sector de la población.</p>
+<p>El aumento en la esperanza de vida en nuestro país no garantiza que las personas de la tercera, y de la cada vez más creciente cuarta edad, tengan una buena calidad de vida y un acceso oportuno a la atención en salud. Por el contrario, hemos identificado que existe por un lado un gran retraso en las atenciones GES que pueden afectar a las personas sobre 60 años, lo que muestra una falta de capacidad de nuestro sistema actual de salud para responder a tiempo a las demandas de este grupo etario.</p>
+<p>El retraso en las atenciones GES se vincula con las enfermedades que más provocan decesos en este grupo etario: las enfermedades cardiovasculares y oncológicas. Ambas son prioritarias tanto por las altas demandas de atención en el sistema de salud como por su alto porcentaje de mortalidad. Una de las causas que logramos evidenciar en esta investigación, son las profundas desigualdades en la distribución de especialistas médicos a lo largo del territorio chileno, centrándonos en este caso en cardiólogos y oncólogos.</p>
+<p>Pudimos constatar cómo en las zonas geográficas de nuestro país, tanto norte como sur, la falta de especialistas médicos agrava la situación descrita hasta ahora. En particular, en la región de Magallanes, donde el envejecimiento de la población se ha acelerado significativamente, y la población adulta mayor además de la carencia en atenciones médicas, debe enfrentarse a un clima extremo y a dificultades en la movilización en zonas remotas.</p>
+<div class="visualization-img2">
+  <img src="magallanes-inv.jpg" alt="Foto ciudad de Magallanes" style="max-width: 720px; max-height: 550px;">
+</div>
+<p style="text-align: right;">Fuente: Concierto.cl</p> 
+<p>En contraste, las regiones centrales, como Santiago, concentran un mayor número de especialistas, reflejando un modelo centralizado que no responde a las necesidades de las zonas más aisladas. Si bien la zona central concentra la mayor cantidad de población, en consecuencia, una alta demanda de servicios y recursos en todas las áreas, la distribución tan desproporcionada de especialistas deja a las regiones extremas en una situación de desamparo. Una atención oportuna y de calidad es esencial para todas las personas, sin importar la cantidad de personas o el nivel socioeconómico del sector en que vivan.</p>
+<p>La falta de profesionales capacitados en regiones como Magallanes agrava las desigualdades estructurales en el acceso a la salud. Sólo a través de un enfoque integral y descentralizador será posible garantizar un sistema de salud capaz de responder a las demandas de una población chilena cada vez más envejecida. Esto incluye aspectos como políticas públicas prioricen que prioricen tanto el aumento del número de especialistas, como una planificación estratégica para una distribución adecuada para las necesidades de cada región. Otros factores que podrían ser de ayuda para revertir esta situación incluyen incentivos para que los profesionales se desplacen hacia zonas más alejadas, inversiones en infraestructura sanitaria y programas que fomenten la equidad en el acceso a la salud.</p> 
+<p>Sin tomar estas u otras medidas que realicen un cambio en la distribución de especialistas, miles de personas continuarán enfrentándose a múltiples barreras, como las distancias físicas, un clima difícil de enfrentar y la falta de atención médica especializada, que no sólo afectan su calidad de vida, sino también sus posibilidades de sobrevivir frente a enfermedades graves.</p>
+</section>
+
+<img src="ilust5.png" alt="Ilustración adulto mayor con un gato" class="ilustraciones" style="max-width: 150; max-height: 150;"> 
+
+  <!-- Footer -->
+  <footer>
+    <p>Webstory creada por Michelle Gamboa, Constanza Inostroza y Angela Poblete. | Narración Gráfica de No Ficción 2024-2 | Profesora: Katherine Páez | Pontificia Universidad Católica de Chile 
+    <p>Para más información visita <a href="https://github.com/angelapobb/grupo" style="color: #DC4719">nuestro repositorio</a> y <a href="referencias.html" target="_blank" style="color: #DC4719">nuestras referencias.</a>
+
+    </p>
+  </footer>
+  
+<!-- Script Grafico Interactivo Seccion Envejecimiento -->
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "layer": [{"data": {"name": "data-b9b5238a2b4f20588ed403e253bd5bd0"}, "mark": {"type": "bar", "color": "#F58518"}, "encoding": {"tooltip": [{"field": "Regi\u00f3n", "title": "Regi\u00f3n", "type": "nominal"}, {"field": "Cambio", "title": "Variaci\u00f3n (%)", "type": "quantitative"}], "x": {"axis": {"labelAngle": -45, "labelFontSize": 14, "titleFontSize": 16}, "field": "Regi\u00f3n", "sort": ["Arica y Parinacota", "Tarapac\u00e1", "Antofagasta", "Atacama", "Coquimbo", "Valpara\u00edso", "Metropolitana", "O\u2019Higgins", "Maule", "\u00d1uble", "Biob\u00edo", "La Araucan\u00eda", "Los R\u00edos", "Los Lagos", "Ays\u00e9n", "Magallanes"], "type": "nominal"}, "y": {"axis": {"labelFontSize": 14, "title": "60 y m\u00e1s (%) cambio", "titleFontSize": 16}, "field": "Cambio", "type": "quantitative"}}, "height": 400, "title": {"text": "Variaci\u00f3n % de la poblaci\u00f3n +60 a\u00f1os, por regi\u00f3n", "anchor": "middle", "fontSize": 18}, "width": 800}, {"data": {"name": "data-8cdc4e0b49fb65434108558f3127fc92"}, "mark": {"type": "rule", "color": "blue", "strokeWidth": 4}, "encoding": {"tooltip": [{"field": "y", "title": "Promedio nacional", "type": "quantitative"}], "y": {"field": "y", "title": "", "type": "quantitative"}}}], "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json", "datasets": {"data-b9b5238a2b4f20588ed403e253bd5bd0": [{"Regi\u00f3n": "Arica y Parinacota", "Cambio": 9.0}, {"Regi\u00f3n": "Tarapac\u00e1", "Cambio": 6.3}, {"Regi\u00f3n": "Antofagasta", "Cambio": 8.8}, {"Regi\u00f3n": "Atacama", "Cambio": 7.0}, {"Regi\u00f3n": "Coquimbo", "Cambio": 6.9}, {"Regi\u00f3n": "Valpara\u00edso", "Cambio": 8.7}, {"Regi\u00f3n": "Metropolitana", "Cambio": 7.2}, {"Regi\u00f3n": "O\u2019Higgins", "Cambio": 9.3}, {"Regi\u00f3n": "Maule", "Cambio": 9.8}, {"Regi\u00f3n": "\u00d1uble", "Cambio": 11.6}, {"Regi\u00f3n": "Biob\u00edo", "Cambio": 12.1}, {"Regi\u00f3n": "La Araucan\u00eda", "Cambio": 11.4}, {"Regi\u00f3n": "Los R\u00edos", "Cambio": 10.2}, {"Regi\u00f3n": "Los Lagos", "Cambio": 8.5}, {"Regi\u00f3n": "Ays\u00e9n", "Cambio": 9.5}, {"Regi\u00f3n": "Magallanes", "Cambio": 11.9}], "data-8cdc4e0b49fb65434108558f3127fc92": [{"y": 8.1}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div class="error" style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+    </script>
+
+  <!-- Script Grafico Interactivo Seccion Magallanes -->
+<script>
+  (function(vegaEmbed) {
+    var spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "data": {"name": "data-92ab6a8271545aaf2da828e0bdf444f4"}, "mark": "bar", "encoding": {"color": {"field": "Regi\u00f3n", "scale": {"scheme": "tableau10"}, "type": "nominal"}, "column": {"field": "Regi\u00f3n", "title": "Regi\u00f3n", "type": "nominal"}, "x": {"field": "Grupo etario", "title": "Grupo Etario", "type": "nominal"}, "y": {"field": "Cambio (%)", "title": "Cambio de Poblaci\u00f3n (%)", "type": "quantitative"}}, "height": 300, "title": "Cambio de Poblaci\u00f3n por Edad en Magallanes vs Total Pa\u00eds (2002-2021)", "width": 150, "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json", "datasets": {"data-92ab6a8271545aaf2da828e0bdf444f4": [{"Regi\u00f3n": "Total pa\u00eds", "Grupo etario": "0-14 a\u00f1os (%) cambio", "Cambio (%)": -5.3}, {"Regi\u00f3n": "Magallanes", "Grupo etario": "0-14 a\u00f1os (%) cambio", "Cambio (%)": -7.1}, {"Regi\u00f3n": "Total pa\u00eds", "Grupo etario": "16-59 a\u00f1os (%) cambio", "Cambio (%)": -2.8}, {"Regi\u00f3n": "Magallanes", "Grupo etario": "16-59 a\u00f1os (%) cambio", "Cambio (%)": -5.8}, {"Regi\u00f3n": "Total pa\u00eds", "Grupo etario": "60 y m\u00e1s (%) cambio", "Cambio (%)": 8.1}, {"Regi\u00f3n": "Magallanes", "Grupo etario": "60 y m\u00e1s (%) cambio", "Cambio (%)": 12.9}]}};
+    var embedOpt = {"mode": "vega-lite"};
+
+    function showError(el, error){
+        el.innerHTML = ('<div class="error" style="color:red;">'
+                        + '<p>JavaScript Error: ' + error.message + '</p>'
+                        + "<p>This usually means there's a typo in your chart specification. "
+                        + "See the javascript console for the full traceback.</p>"
+                        + '</div>');
+        throw error;
+    }
+    const el = document.getElementById('vis2');
+    vegaEmbed("#vis2", spec, embedOpt)
+      .catch(error => showError(el, error));
+  })(vegaEmbed);
+
+</script>
+
+  <script src="script.js"></script>
+  <script src="script.js" type="script"></script>
+</body>
+</html>
+
