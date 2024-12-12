@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .error {
+        color: red;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.17.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "layer": [{"data": {"name": "data-a3cf4ee31ab428cedf177c6d8a4f230c"}, "mark": {"type": "bar", "color": "#F58518"}, "encoding": {"tooltip": [{"field": "Regi\u00f3n", "title": "Regi\u00f3n", "type": "nominal"}, {"field": "Cambio", "title": "Variaci\u00f3n (%)", "type": "quantitative"}], "x": {"axis": {"labelAngle": -45, "labelFontSize": 14, "titleFontSize": 16}, "field": "Regi\u00f3n", "sort": ["Arica y Parinacota", "Tarapac\u00e1", "Antofagasta", "Atacama", "Coquimbo", "Valpara\u00edso", "Metropolitana", "O\u2019Higgins", "Maule", "\u00d1uble", "Biob\u00edo", "La Araucan\u00eda", "Los R\u00edos", "Los Lagos", "Ays\u00e9n", "Magallanes"], "type": "nominal"}, "y": {"axis": {"labelFontSize": 14, "title": "60 y m\u00e1s (%) cambio", "titleFontSize": 16}, "field": "Cambio", "type": "quantitative"}}, "height": 400, "title": {"text": "Variaci\u00f3n % de la poblaci\u00f3n +60 a\u00f1os, por regi\u00f3n", "anchor": "middle", "fontSize": 18}, "width": 800}, {"data": {"name": "data-8cdc4e0b49fb65434108558f3127fc92"}, "mark": {"type": "rule", "color": "blue", "strokeWidth": 4}, "encoding": {"tooltip": [{"field": "y", "title": "Promedio nacional", "type": "quantitative"}], "y": {"field": "y", "title": "", "type": "quantitative"}}}], "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json", "datasets": {"data-a3cf4ee31ab428cedf177c6d8a4f230c": [{"Regi\u00f3n": "Arica y Parinacota", "Cambio": 9.0}, {"Regi\u00f3n": "Tarapac\u00e1", "Cambio": 6.3}, {"Regi\u00f3n": "Antofagasta", "Cambio": 8.8}, {"Regi\u00f3n": "Atacama", "Cambio": 7.0}, {"Regi\u00f3n": "Coquimbo", "Cambio": 6.9}, {"Regi\u00f3n": "Valpara\u00edso", "Cambio": 8.7}, {"Regi\u00f3n": "Metropolitana", "Cambio": 7.2}, {"Regi\u00f3n": "O\u2019Higgins", "Cambio": 9.3}, {"Regi\u00f3n": "Maule", "Cambio": 9.8}, {"Regi\u00f3n": "\u00d1uble", "Cambio": 11.6}, {"Regi\u00f3n": "Biob\u00edo", "Cambio": 12.1}, {"Regi\u00f3n": "La Araucan\u00eda", "Cambio": 11.4}, {"Regi\u00f3n": "Los R\u00edos", "Cambio": 10.2}, {"Regi\u00f3n": "Los Lagos", "Cambio": 8.5}, {"Regi\u00f3n": "Ays\u00e9n", "Cambio": 9.5}, {"Regi\u00f3n": "Magallanes", "Cambio": 12.9}], "data-8cdc4e0b49fb65434108558f3127fc92": [{"y": 8.1}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div class="error" style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
