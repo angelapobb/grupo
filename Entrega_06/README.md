@@ -23,13 +23,13 @@ En la primera entrega presentamos esta idea: "Este proyecto busca explorar cómo
 
 #### **Preguntas Iniciales**
 
-¿Cómo ha cambiado la distribución de la población chilena por edad en las últimas décadas?
-¿Cuál es la proporción de personas mayores en comparación con la población joven en la actualidad? ¿Cómo ha evolucionado?
-¿Qué factores han contribuido al envejecimiento de la población en mayor y menor medida? (disminución de la natalidad, aumento en la esperanza de vida, migración)
-¿Cómo está afectando el envejecimiento a los sistemas de pensiones y de salud en Chile?
-¿Cuáles son las proyecciones de la pirámide poblacional en Chile para las próximas décadas?
-¿Cómo se compara Chile con otros países en términos de envejecimiento poblacional?
-¿Qué políticas públicas se han implementado o se están debatiendo para hacer frente a este desafío?
+- ¿Cómo ha cambiado la distribución de la población chilena por edad en las últimas décadas?
+- ¿Cuál es la proporción de personas mayores en comparación con la población joven en la actualidad? ¿Cómo ha evolucionado?
+- ¿Qué factores han contribuido al envejecimiento de la población en mayor y menor medida? (disminución de la natalidad, aumento en la esperanza de vida, migración)
+- ¿Cómo está afectando el envejecimiento a los sistemas de pensiones y de salud en Chile?
+- ¿Cuáles son las proyecciones de la pirámide poblacional en Chile para las próximas décadas?
+- ¿Cómo se compara Chile con otros países en términos de envejecimiento poblacional?
+- ¿Qué políticas públicas se han implementado o se están debatiendo para hacer frente a este desafío?
 
 #### **Evolución de la Hipótesis y Preguntas**
 
